@@ -2,6 +2,6 @@ module.exports = grammar({
   name : 'Decaf',
 
   rules : {
-    program : $ => repeat($._decl),
+    source_file : $ => "test",
   }
 });
